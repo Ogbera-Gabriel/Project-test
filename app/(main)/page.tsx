@@ -1,5 +1,5 @@
 
-import WoodFormModal from "@/components/wood-form-model";
+import WoodFormModal from "@/components/wood-form-modal";
 import Container from "@mui/material/Container";
 
 
