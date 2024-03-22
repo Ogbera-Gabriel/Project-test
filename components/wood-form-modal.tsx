@@ -129,7 +129,7 @@ export default function WoodFormModal() {
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>Wood Form</DialogTitle>
         <DialogContent>
-          <DialogContentText>Please fill out the form below.</DialogContentText>
+          <DialogContentText sx={{marginBottom: "10px"}}>Please fill out the form below.</DialogContentText>
           <form onSubmit={handleSubmit(onSubmit)} autoComplete="off">
           {showWood && (
               <FormControl fullWidth style={{ marginBottom: "10px" }}>
@@ -356,6 +356,7 @@ export default function WoodFormModal() {
                 error={!!errors.deliveryAddress}
                 fullWidth
                 style={{ marginBottom: "10px" }}
+                
               />
             )}
 
